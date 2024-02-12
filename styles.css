@@ -1,0 +1,90 @@
+*{
+   box-sizing: border-box;
+}
+@font-face {
+    font-family: videoGame;
+    src: url("./assets/Pretendo.ttf");
+    font-family: eightBit;
+    src: url("./assets/pressStart.ttf");
+}
+
+body{
+    background-image: url("./assets/Nintendo\ Background.jpg");
+    font-family: 'Press Start 2P', system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1{
+    font-family: videoGame;
+    color: red;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: -10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+#nintendole{
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+#guess{
+    font-family: videoGame;
+    color: red;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#enter{
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+}
+
+#reset{
+   border-radius: 20px;
+   margin: 10px;
+}
+
+.board-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    font-family: eightBit;
+    font-size: smaller;
+    color: white;
+    border: solid white 1px;
+    background-color: gray;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
