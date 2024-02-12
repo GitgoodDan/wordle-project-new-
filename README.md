@@ -8,4 +8,6 @@ Technologies used: HTML, CSS and Javascript.
 
 (https://gitgooddan.github.io/wordle-project-new-/)
 
+Here is a link to currently avaible characters to guess. https://github.com/GitgoodDan/wordle-project-new-/blob/main/assets/character.js
+
 Some planned features include pictures of each character as you guess them and some bug fixes.
