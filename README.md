@@ -6,6 +6,6 @@ Hi this is my wordle project and its called "Nitendole"
 
 Technologies used: HTML, CSS and Javascript.
 
-https://gitgooddan.github.io/Wordle-Practice/
+(https://gitgooddan.github.io/wordle-project-new-/)
 
 Some planned features include pictures of each character as you guess them and some bug fixes.
